@@ -1,0 +1,31 @@
+/*
+
+Template: Appino - Responsive App Landing Page
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+NOTE: You can use your styling layout by this file to your website.
+
+*/
+.offer-list{
+	width: 100%;
+}
+.offer-list li{
+	list-style: none;
+	display: inline-block;
+	width: 32%;
+	margin: 0px;
+	vertical-align: top;
+}
+.offer-list ul{
+	margin-right: 15px;
+}
+.offer-list li ul li{
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+.offer-list li ul li:before{
+	content: "- ";
+}
